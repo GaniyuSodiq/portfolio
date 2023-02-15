@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500;700&family=Playfair+Display:wght@500&family=Ubuntu:wght@300;400;700&display=swap');
+
+/* font-family: 'Brygada 1918', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+/* UTILITIES */
+
+.site-wide-container{
+    padding: .5% 8%;
+    background-color: #F9F9F9;
+}
+
+.container-fluid{
+    padding: 1% 0 5% 0;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    opacity: .9;
+}
+
+h1,h2,h3{
+    font-family: 'Brygada 1918', serif;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+
+/* HEADER */
+
+#header{
+    background-color: #E9E9E9;
+}
+
+.my-name-is{
+    color: #0358d8;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.cta-paragraph{
+    width: 50%;
+    padding: 2% 0;
+}
+
+
+/* GRADIENT BUTTON */
+
+.header-cta{
+    background: linear-gradient(to right, #0358d8, #D01EBD);
+    padding: 15px 2px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.header-cta-button{
+    background: #E9E9E9;
+    padding: 14px 35px 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header-cta-button:hover{
+    background-color: #d2e1f7;
+} 
+
+.header-content-name-cta{
+    padding-bottom: 5%;
+}
+
+
+/* LANGUAGES AND FRAMEWORKS */
+
+.balls-box{
+    text-align: right;
+}
+
+
+/* COLORED BALLS */
+
+.color-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.color-circle-stay-RHS{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.blue-ball{
+    background-color: #0358d8;
+}
+
+.semipurple-ball{
+    background-color: #6A3BCA;
+}
+
+.purple-ball{
+    background-color: #D01EBD;
+}
