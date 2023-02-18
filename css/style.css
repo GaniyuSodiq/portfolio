@@ -132,6 +132,7 @@ h3{
 
 .technologies-table{
     padding-top: 3%;
+    margin-right: 0;
 }
 
 #technologies{
@@ -162,4 +163,21 @@ h3{
     height: 70px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.fullstack-column-box{
+    background-image: url("../images/fullstackimage.jpg");
+    background-size: cover;
+    padding: 30px;
+}
+
+.fullstack-rhs h3{
+    color: white;
+    opacity: 1;
+}
+
+.fullstack-rhs-balls{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
