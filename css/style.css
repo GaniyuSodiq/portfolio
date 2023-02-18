@@ -18,7 +18,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 
-/* TEXT AND HEADERS */
+/*                                              TEXT AND HEADERS                                        */
 
 p{
     font-family: 'Ubuntu', sans-serif;
@@ -47,13 +47,13 @@ h3{
 }
 
 
-/* COLORED BALLS */
+/*                                               COLORED BALLS                                          */
 
 .color-circle{
     height: 10px;
     width: 10px;
     border-radius: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -93,7 +93,7 @@ h3{
 }
 
 
-/* GRADIENT BUTTON */
+/*                                           GRADIENT BUTTON                                         */
 
 .header-cta{
     background: linear-gradient(to right, #0358d8, #D01EBD);
@@ -180,4 +180,27 @@ h3{
     width: 30%;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+/*                                                    ABOUT ME                                         */
+
+
+#about-me{
+    padding-top: 10%;
+}
+
+.about-me-col{
+    display: flex;
+    padding-top: 15%;
+}
+
+.about-me-text{
+    margin-left: 40px;
+}
+
+.about-me-paragraph{
+    padding-top: 5%;
+    line-height: 1.5;
 }
