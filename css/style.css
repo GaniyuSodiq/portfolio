@@ -339,3 +339,31 @@ h4{
 .footer-menu-links li a:hover{
     color: #0358d8;
 }
+
+
+
+@media (max-width: 360px){
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        text-transform: capitalize;
+        font-size: 1.75rem;
+    }
+    
+    h3{
+        text-transform: capitalize;
+        font-size: 1rem;
+    }
+    
+    h4{
+        font-size: .8rem;
+    }
+
+    #cta h2{
+        text-transform: uppercase;
+        font-size: 1.3rem;
+    }
+}
