@@ -366,4 +366,29 @@ h4{
         text-transform: uppercase;
         font-size: 1.3rem;
     }
+
+    /*                                           HEADER                                              */
+
+    .header-content{
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .cta-paragraph{
+        width: 100%;
+        padding: 2% 0;
+    }
+
+    .cta-paragraph p{
+        font-size: 1rem;
+        line-height: 2;
+    }
+
+    .my-name-is, .cta-paragraph{
+        margin-bottom: 30px;
+    }
+
+    .header-content-name-cta{
+        padding-bottom: 0;
+    }
 }
