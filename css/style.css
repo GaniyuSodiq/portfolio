@@ -362,6 +362,11 @@ h4{
         font-size: .8rem;
     }
 
+     p{
+        font-size: 1rem;
+        line-height: 2;
+    }
+
     #cta h2{
         text-transform: uppercase;
         font-size: 1.3rem;
@@ -390,5 +395,22 @@ h4{
 
     .header-content-name-cta{
         padding-bottom: 0;
+    }
+
+
+    /*                                     TECHNOLOGIES                                       */
+    .technologies-paragraph{
+        text-align: center;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+
+    .heading-h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .balls-box{
+        display: none;
     }
 }
