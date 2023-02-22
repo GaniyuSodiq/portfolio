@@ -448,4 +448,55 @@ h4{
     .color-circle-box{
         display: none;
     }
+
+    .about-me-and-picture{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-picture{
+        display: block;
+    }
+
+    .about-me-picture img{
+        width: 100%;
+    }
+
+    /*                                              PROJECT                                        */
+
+    .projects-heading-line{
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects-heading{
+        display: block;
+    }
+
+    .projects-heading-color-balls{
+        display: none;
+    }
+
+    .projects-row-text-and-picture, .project-text{
+        flex-direction: column;
+    }
+
+    .project-color{
+        width: 100%;
+        height: 2px;
+        margin-top: 20px;
+    }
+
+    .date{
+        transform: rotate(0deg);
+    }
+
+    /* .project-text{
+        flex-direction: column-reverse;
+    } */
+
+    .project-url{
+        text-align: center;
+    }
 }
